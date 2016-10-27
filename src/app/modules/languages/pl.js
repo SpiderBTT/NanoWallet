@@ -476,24 +476,24 @@ function EnglishProvider($translateProvider) {
         FAQ_ANSWER_7_5: 'Apostille services funds:',
 
         // FORM RELATED
-        FORM_PASSWORD_FIELD_PLACEHOLDER: 'Enter your wallet password or passphrase',
-        FORM_WALLET_NAME_FIELD_PLACEHOLDER: 'Wallet name',
-        FORM_SIGNUP_PASSWORD_FIELD_PLACEHOLDER: 'Password',
-        FORM_CONFIRM_PASSWORD_FIELD_PLACEHOLDER: 'Confirm your password',
-        FORM_PASSPHRASE_FIELD_PLACEHOLDER: 'Passphrase',
-        FORM_CONFIRM_PASSPHRASE_FIELD_PLACEHOLDER: 'Confirm your passphrase',
-        FORM_ADDRESS_FIELD_PLACEHOLDER: 'Account address',
-        FORM_PRIVATE_KEY_FIELD_PLACEHOLDER: 'Private key',
-        FORM_SIDE_BTN_BALANCE: 'Balance',
-        FORM_SIDE_BTN_PAY_TO: 'Pay to',
-        FORM_SIDE_BTN_TX_FEE: 'Transaction fee',
-        FORM_SIDE_BTN_RENTAL_FEE: 'Rental fee',
-        FORM_SIDE_BTN_LEVY_FEE: 'Levy fee',
-        FORM_RECIPIENT_PLACEHOLDER: 'Recipient address or @alias',
-        FORM_INVOICE_RECIPIENT_PLACEHOLDER: 'Recipient address',
-        FORM_SIDE_BTN_ALIAS_OF: 'Alias of',
-        FORM_MESSAGE_PLACEHOLDER: 'Message',
-        FORM_MOSAIC_NAME_PLACEHOLDER: 'Mosaic name'
+        FORM_PASSWORD_FIELD_PLACEHOLDER: 'Wpisz hasło portfela lub hasło wielowyrazowe',
+        FORM_WALLET_NAME_FIELD_PLACEHOLDER: 'Nazwa portfela',
+        FORM_SIGNUP_PASSWORD_FIELD_PLACEHOLDER: 'Hasło',
+        FORM_CONFIRM_PASSWORD_FIELD_PLACEHOLDER: 'Potwierdź hasło',
+        FORM_PASSPHRASE_FIELD_PLACEHOLDER: 'Hasło wielowyrazowe',
+        FORM_CONFIRM_PASSPHRASE_FIELD_PLACEHOLDER: 'Potwierdź hasło wielowyrazowe',
+        FORM_ADDRESS_FIELD_PLACEHOLDER: 'Adres konta',
+        FORM_PRIVATE_KEY_FIELD_PLACEHOLDER: 'Klucz prywatny',
+        FORM_SIDE_BTN_BALANCE: 'Saldo',
+        FORM_SIDE_BTN_PAY_TO: 'Zapłać',
+        FORM_SIDE_BTN_TX_FEE: 'Opłata transakcyjna',
+        FORM_SIDE_BTN_RENTAL_FEE: 'Opłata dzierżawcza',
+        FORM_SIDE_BTN_LEVY_FEE: 'Podatek',
+        FORM_RECIPIENT_PLACEHOLDER: 'Adres odbiorcy lub @alias',
+        FORM_INVOICE_RECIPIENT_PLACEHOLDER: 'Adres odbiorcy',
+        FORM_SIDE_BTN_ALIAS_OF: 'Alias konta',
+        FORM_MESSAGE_PLACEHOLDER: 'Wiadomość',
+        FORM_MOSAIC_NAME_PLACEHOLDER: 'Nazwa mozaiki'
     });
 
 }
