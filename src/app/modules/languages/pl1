@@ -1,7 +1,7 @@
-function EnglishProvider($translateProvider) {
+function PolishProvider($translateProvider) {
     'ngInject'
 
-    $translateProvider.translations('en', {
+    $translateProvider.translations('pl', {
 
         // HEADER COMPONENT
         APP_NAME_SUB: 'Bezpieczny interfejs łączący z platformą NEM',
@@ -196,10 +196,10 @@ function EnglishProvider($translateProvider) {
         MOSAIC_DEFINITION_INFORMATION_3: 'Opis nie może przekraczać długości 512 znaków. Nie ma ograniczeń co do  znaków użytych w opisie.',
         MOSAIC_DEFINITION_INFORMATION_4: 'Zachowanie mozaiki można dostosować poprzez zestaw właściwości:',
         MOSAIC_DEFINITION_INFORMATION_5: 'Podaż jest podana w całych jednostkach mozaiki, a nie w najmniejszych podjednostkach. Początkowa ilość musi być w zakresie od 0 do 9,000,000,000.',
-        MOSAIC_DEFINITION_INFORMATION_6: 'Podzielność określa do jakiego miejsca dziesiętnego można podzielić mozaikę. Tak więc, podzielność 3 oznacza, że mozaikę można podzielić na tysiąc części, a najmniejsza jednostka to 0,001 mozaiki. Podzielność musi zawierać się w zakresie od 0 do 6.',
+        MOSAIC_DEFINITION_INFORMATION_6: 'Podzielność określa do jakiego miejsca dziesiętnego można podzielić mozaikę. Tak więc podzielność 3 oznacza, że mozaikę można podzielić na tysiąc części, a najmniejsza jednostka to 0,001 mozaiki. Podzielność musi zawierać się w zakresie od 0 do 6.',
         MOSAIC_DEFINITION_INFORMATION_7: 'Jeśli zaznaczone, pozwala na zmianę ilości mozaiki w późniejszym momencie, w przeciwnym razie podaż jest niezmienna.',
         MOSAIC_DEFINITION_INFORMATION_8: 'Pozwala na transfery mozaiki między kontami innymi niż twórcy. Jeśli właściwość \'zbywalna\' nie jest zaznaczona, tylko transakcje zawierające twórcę jako nadawcę albo odbiorcę są możliwe. Jeśli jest zaznaczona, mozaiki mogą być przenoszone pomiędzy dowolnymi kontami.',
-        MOSAIC_DEFINITION_INFORMATION_9: 'Twórca może żądać specjalnej opłaty pobieranej od nadawcy i wysłanej na wybrane przez siebie konto (wobec tego twórca może określić własne konto jako odbiorcę tej opłaty). Dane dla specjalnej opłaty są następujące:',
+        MOSAIC_DEFINITION_INFORMATION_9: 'Twórca może żądać specjalnej opłaty(podatku) pobieranej od nadawcy i wysłanej na wybrane przez siebie konto (wobec tego twórca może określić własne konto jako odbiorcę tej opłaty). Dane dla specjalnej opłaty są następujące:',
         MOSAIC_DEFINITION_INFORMATION_10: 'Mozaika, w której opłata musi być zapłacona. Każda istniejąca mozaika może być użyta.',
         MOSAIC_DEFINITION_INFORMATION_11: 'Odbiorca opłaty. Może to być dowolne konto.',
         MOSAIC_DEFINITION_INFORMATION_12: 'Wielkość opłaty. Interpretacja zależy od pola \'typ opłaty\', patrz wyżej.',
@@ -225,8 +225,8 @@ function EnglishProvider($translateProvider) {
         NAMESPACE_PROVISION_TITLE: 'Tworzenie namespace i sub-namespace',
         NAMESPACE_PROVISION_NAME: 'Transakcja tworzenia namespace',
         NAMESPACE_PROVISION_MULTISIG_NAME: 'Transakcja tworzenia namespace z multipodpisem',
-        NAMESPACE_PROVISION_PARENT: 'Parent Namespace (excluding level 3)',
-        NAMESPACE_PROVISION_NEW_ROOT: 'Nowa główna',
+        NAMESPACE_PROVISION_PARENT: 'Macierzysta Namespace (wyłączając poziom 3)',
+        NAMESPACE_PROVISION_NEW_ROOT: 'Nowa Główna',
         NAMESPACE_PROVISION_NS_NAME: 'Nazwa Namespace',
         NAMESPACE_PROVISION_INFORMATION_1: 'Namespaces mają pewne ograniczenia w odniesieniu do akceptowanych znaków jak również długości nazw. Namespace główna może mieć długość do 16 znaków, podczas gdy sub-namespace może mieć długość 64 znaków. Poprawne znaki to:',
         NAMESPACE_PROVISION_INFORMATION_2: 'Nazwa Namespace musi zaczynać się od litery z alfabetu, wobec tego \'alice\' jest dozwoloną nazwą dla Głównej Namespace, podczas gdy \'1alice\' nie jest. Pewne ciągi znaków są zarezerwowane i nie można ich użyć jako nazwy Namespace. Wśród tych ciągów znaków są:',
@@ -315,7 +315,7 @@ function EnglishProvider($translateProvider) {
         APOSTILLE_CREATE_TITLE: 'Utwórz apostile',
         APOSTILLE_TRANSACTION_NAME: 'Transakcja apostila',
         APOSTILLE_TRANSACTION_MULTISIG_NAME: 'Transakcja apostila z multipodpisem',
-        APOSTILLE_KEEP_PRIVATE: 'Prywatny, zbywalny i aktualizowalny,
+        APOSTILLE_KEEP_PRIVATE: 'Zachowaj Prywatne',
         APOSTILLE_USE_DEDICATED: 'Użyj konta dedykowanego ',
         APOSTILLE_FILES_TO_NOTARIZE: 'Pliki do notaryzowania',
         APOSTILLE_REJECTED: 'Odrzucony',
@@ -325,10 +325,10 @@ function EnglishProvider($translateProvider) {
         APOSTILLE_NAME_TOO_LONG: 'Nazwa pliku jest zbyt długa, dozwolone maksimum 40 znaków.',
         APOSTILLE_MAX_NUMBER: 'Maksimum apostili w partii to 25',
         APOSTILLE_INFORMATION_1: 'Każdy przesłany plik jest automatycznie przetwarzany z użyciem opcji ustawionych na lewym panelu. Możesz dodać nowe pliki, zmienić parametry, a następnie dodać więcej plików z innymi ustawieniami. Możesz również przełączyć na zakładkę Multipodpis i dodać więcej plików.',
-        APOSTILLE_INFORMATION_2: 'Opcja "<b>Prywatne, transferowalne i aktualizowalne</b>" oznacza, że hasze Twoich plików są podpisane za pomocą twojego klucza prywatnego i wysłane do dedykowanego hierarchicznie deterministycznego (HD) konta. Tym sposobem tylko ty wiesz jaka zawartość została oznakowana, chyba, że ujawnisz tą zawartość.', 
+        APOSTILLE_INFORMATION_2: 'Opcja "<b>Zachowaj Prywatne</b>" oznacza, że hasze Twoich plików są podpisane za pomocą twojego klucza prywatnego i wysłane do dedykowanego hierarchicznie deterministycznego (HD) konta. Tym sposobem tylko ty wiesz jaka zawartość została oznakowana, chyba, że ujawnisz tą zawartość.', 
         APOSTILLE_INFORMATION_3: 'Dedykowane konto HD może zostać przekonwertowane na kontrakt z multipodpisem tak, aby można je było przesyłać poprzez kontrakt 1-z-1 lub m-z-n. Może posiadać również dodatkowe informacje przesyłane do niego za pośrednictwem wiadomości z aktualizacjami oraz zmianami w oryginalnym dokumencie lub produkcie, który reprezentuje.',
         APOSTILLE_INFORMATION_4: 'Kiedy dwie lub więcej stron chce zatwierdzić transakcję na przykład wiążący kontrakt, konto dokonujące notaryzacji można umieścić w kontrakcie z multipodpisem n-z-n',
-        APOSTILLE_INFORMATION_5: 'W przypadku kont w kontrakcie z multipodpisem, które zaznaczyły "<b>Prywatny, transferowalny i aktualizowalny</b>", do podpisania haszu i utworzenia dedykowanego konta HD użyty jest klucz prywatny inicjującego sygnatariusza, a nie konto, które zostało przekonwertowane na multipodpis.',
+        APOSTILLE_INFORMATION_5: 'W przypadku kont w kontrakcie z multipodpisem, które zaznaczyły "<b>Zachowaj Prywatne</b>", do podpisania haszu i utworzenia dedykowanego konta HD użyty jest klucz prywatny inicjującego sygnatariusza, a nie konto, które zostało przekonwertowane na multipodpis.',
         APOSTILLE_INFORMATION_6: 'Konto HD jest kontem dedykowanym wygenerowanym z hasza pliku, który następnie jest podpisany przez twoj klucz prywatny. Hasz powstały w tym procesu stosuje się następnie do wytworzenia drugiego klucza prywatnego. To jest klucz prywatny oznaczonego w łańcuchu bloków pliku; pierwszy w technologii blockchain, dostępny tylko w technologii Apostille.',
         APOSTILLE_INFORMATION_7: 'Dedykowane konto HD pozwala na przechowywanie oryginalnego hasza pliku i jego aktualizacje na dedykowanym koncie. Jeśli <b>"Publiczny"</b> jest wybrany, transakcja idzie na adres pulicznego konta zbiorczego(domyślnie).',
         APOSTILLE_INFORMATION_8: 'Po wysłaniu transakcji uruchamiane jest pobieranie zarchiwizowanego pliku. Zawiera on twoje podpisane pliki, twoj certyfikat Apostila dla tego pliku i nowy lub zaktualizowany plik .nty aby śledzić wszystkie pliki, które oznaczyłeś na łańcuchu bloków NEM.',
@@ -432,7 +432,7 @@ function EnglishProvider($translateProvider) {
         AGGREGATE_MODIFICATION_EDIT_SELECT: 'Wybierz konto do edycji',
         AGGREGATE_ADD_REMOVE_PLACEHOLDER: 'Konto sygnatariusza lub @alias',
         AGGREGATE_MODIFICATION_RELATIVE_CHANGE: 'Relatywna zmiana minimum sygnatur',
-        AGGREGATE_MODIFICATION_RELATIVE_CHANGE_PLACEHOLDER: 'Liczba sygnatur do dodania (n) lub usunięcia (-n) - Automated removals',
+        AGGREGATE_MODIFICATION_RELATIVE_CHANGE_PLACEHOLDER: 'Liczba sygnatur do dodania (n) lub usunięcia (-n)',
         AGGREGATE_SELECTED_ACCOUNT_INFO: 'Informacja o wybranym koncie',
         AGGREGATE_MIN_SIGNATURES: 'Minimum sygnatur',
         AGGREGATE_SELECT_WALLET_ACCOUNT: 'Użyj portfela konta',
@@ -440,7 +440,7 @@ function EnglishProvider($translateProvider) {
         // LOGIN MODULE
         LOGIN_MEMBER_TITLE: 'Jesteś już członkiem NEM ?',
         LOGIN_UPGRADE_TITLE: 'Portfel wymaga aktualizacji',
-        LOGIN_UPGRADE_MESSAGE: 'Wybrany portfel wymaga aktualizacji. Ta czynność spowoduje wygenerowanie pochodnrgo klucza publicznego i dodanie go do konta głównego. Pobieranie zaktualizowanego portfela zostanie automatycznie rozpoczęte. <b><u>Musisz</u></b> go pobrać !',
+        LOGIN_UPGRADE_MESSAGE: 'Wybrany portfel wymaga aktualizacji. Ta czynność spowoduje wygenerowanie pochodnego klucza publicznego i dodanie go do konta głównego. Pobieranie zaktualizowanego portfela zostanie automatycznie rozpoczęte. <b><u>Musisz</u></b> go pobrać !',
         LOGIN_UPGRADE_BUTTON: 'Aktualizuj portfel',
         LOGIN_IMPORT_BUTTON: 'Importuj Portfel',
         LOGIN_SELECT_WALLET: 'Wybierz portfel w lokalnej pamięci',
@@ -454,7 +454,7 @@ function EnglishProvider($translateProvider) {
         SIGNUP_CREATE_WALLET_BUTTON: 'Utwórz prosty portfel',
         SIGNUP_PRIVATE_KEY_WALLET_BUTTON: 'Utwórz portfel z klucza prywatnego',
         SIGNUP_BRAIN_WALLET_BUTTON: 'Utwórz brain wallet',
-        SIGNUP_CREATE_WALLET_WARNING: 'Proszę, przeczytaj o <a href="https://www.w3.org/TR/2014/WD-WebCryptoAPI-20140325/#RandomSource-interface" rel="nofollow" target="_blank">niebezpieczeństwach</a> związanych z własnoręcznie generowanymi kluczami, we are not responsible of loss that could be due to entropy of key generation. Even if very few chances to happen it is still recommended to use a private key generated from a NEM client.',
+        SIGNUP_CREATE_WALLET_WARNING: 'Proszę, przeczytaj o <a href="https://www.w3.org/TR/2014/WD-WebCryptoAPI-20140325/#RandomSource-interface" rel="nofollow" target="_blank">niebezpieczeństwach</a> związanych z własnoręcznie generowanymi kluczami, nie jesteśmy odpowiedzialni za ewentualne straty, które mogłyby być spowodowane entropią generowania kluczy. Mimo, że szansa na to jest bardzo mała, zaleca się użycie klucza prywatnego generowany przez klienta NEM.',
         SIGNUP_NETWORK_SELECT: 'Wybierz sieć', //
         SIGNUP_BRAIN_WALLET_WARNING: 'Proszę, przeczytaj o <a href="https://en.bitcoin.it/wiki/Brainwallet" rel="nofollow" target="_blank">niebezpieczeństwach</a> związanych z używaniem brain wallet. Brain wallet używa tylko zakodowanego wielokrotnie hasła, dlatego istotne jest, aby wybrać BEZPIECZNE hasło. <a href="https://xkcd.com/936/" rel="nofollow" target="_blank">XKCD #936</a>',
         SIGNUP_PRIVATE_KEY_WALLET_WARNING: 'Portfel z klucza prywatnego używa TYLKO wielokrotnie zakodowanego hasła, dlatego istotne jest, aby wybrać BEZPIECZNE hasło.',
@@ -468,7 +468,7 @@ function EnglishProvider($translateProvider) {
         FAQ_QUESTION_3: 'Dlaczego posiadam już jedną mozaikę ?',
         FAQ_ANSWER_3: 'Ponieważ XEM jest domyślną walutą blockchaina NEM, każdy użytkownik ma ją już zarejestrowaną w portfelu, nawet jeśli jej bilans wynosi 0. Nazwa jej Namespace to NEM a nazwa mozaiki to XEM.',
         FAQ_QUESTION_4: 'Plan działań ?',
-        FAQ_ANSWER_4: 'Bieżący plan to zintegrowanie wszystkich funkcji klienta NEM i projektów finansowanych przez społeczność do pracy z portfelem Nano.',
+        FAQ_ANSWER_4: 'Bieżący plan to zintegrowanie z portfelem Nano wszystkich funkcji klienta NEM i projektów finansowanych przez społeczność.',
         FAQ_QUESTION_5: 'Czy mogę otrzymać darmowe XEM ?',
         FAQ_ANSWER_5: 'Faucet NEM jest w tej chwili niedostępny, ale możesz odwiedzić forum NEM aby dowiedzieć się o dostępnych nagrodach za pomoc w testowaniu i programowaniu.',
         FAQ_QUESTION_6: 'Gdzie znaleźć więcej informacji na temat NEM ?',
@@ -505,4 +505,4 @@ function EnglishProvider($translateProvider) {
 
 }
 
-export default EnglishProvider;
+export default PolishProvider;
