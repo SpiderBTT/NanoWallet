@@ -97,7 +97,6 @@ function PolishProvider($translateProvider) {
         GENERAL_OPTIONAL: '(opcjonalnie)',
         GENERAL_ERROR: 'Błąd',
         GENERAL_EXAMPLE: 'Przykład',
-        GENERAL_PUBLIC: 'Publiczny',
 
         // TRANSFER TRANSACTION MODULE
         TRANSFER_TRANSACTION_TITLE: 'Wyślij / Odbierz',
